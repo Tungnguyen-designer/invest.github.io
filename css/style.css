@@ -420,6 +420,7 @@ ul{
     margin: 24px 0px;
 }
 .investor .investor__title h4{
+    width: 80%;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -429,6 +430,7 @@ ul{
 }
 
 .investor .investor__title p{
+    width: 80%;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
