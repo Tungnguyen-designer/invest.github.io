@@ -63,3 +63,11 @@
 .footer .footer__content  .footer__content-menu a:hover:before{
     width: 100%;
 }
+.brand:hover:after{
+    height: 100%;
+}
+.brand:hover{
+    color: #FFF;
+    transition: 0.8s all ease;
+    
+}
