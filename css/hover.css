@@ -71,3 +71,9 @@
     transition: 0.8s all ease;
     
 }
+.button_mobile-close:hover{
+    cursor: pointer;
+}
+.main__menu-btnmobile:hover{
+    cursor: pointer;
+}

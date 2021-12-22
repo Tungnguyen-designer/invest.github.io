@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Invest</title>
@@ -14,6 +15,7 @@
     <div class="header">
         <nav class="container">
             <a class="brand" href="#">NEXT INVEST</a>
+            <!-- PC -->
             <div class="main__menu">
                 <ul class="main__menu-link">
                     <li class="nav__link"><a href="">Investment Opportunities</a>
@@ -39,6 +41,47 @@
                     <button class="btn__register-outline">Register</button>
                 </div>
             </div>
+            <!-- Mobile -->
+                <label for="btnmobile__input"  class="main__menu-btnmobile">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                </label>
+                <input type="checkbox" hidden class="nav__input" id="btnmobile__input">
+            <label for="btnmobile__input" class="main__menu-overlay"></label>
+            <!-- Mobile -->
+            <div class="main__menu-mobile">
+                <div class="brand__mobile">
+                    <a href="#">NEXT INVEST</a>
+                </div>
+                
+                <ul class="menu__mobile-list">
+                    <li class="nav__mobile-link"><a href="">Investment Opportunities</a>
+                        <ul class="sub__mobile-menu">
+                            <li><a href="">Menu 2.1</a></li>
+                            <li><a href="">Menu 2.2</a></li>
+                            <li><a href="">Menu 2.3</a></li>
+                            <li><a href="">Menu 2.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__mobile-link"><a href="">How it works</a>
+                        <ul class="sub__mobile-menu">
+                            <li><a href="">Menu 2.1</a></li>
+                            <li><a href="">Menu 2.2</a></li>
+                            <li><a href="">Menu 2.3</a></li>
+                            <li><a href="">Menu 2.4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__mobile-link"><a href="#">About us</a></li>
+                </ul>
+                <div class="button__mobile-menu">
+                    <button class="btn__moile-login">Login</button>
+                    <button class="btn__mobile-register-outline">Register</button>
+                </div>
+                <label for="btnmobile__input" class="button_mobile-close">  
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
+                </label>
+            </div>
+
+
         </nav>   
     </div>
     <div class="button__back">
@@ -448,15 +491,23 @@
     <div class="investor">
         <div class="container">
             <div class="investor__content">
-                    <div class="investor__title">
-                        <!-- <img src="./image/Subtract.svg" alt=""> -->
-                        <h2>$7M+ paid out to investors</h2>
-                        <h4>Next Invest has already paid out over $7M in cash returns to investors. Earn potential cash payments through unique revenue-share and debt financing investments.</h4>
-                        <p>This chart displays payments resulting from offerings facilitated by NextSeed TX LLC, NextSeed US LLC, and NextSeed Securities, LLC between the third quarter of 2015 and the third quarter of 2020 utilizing Texas' intrastate crowdfunding exemption, Regulations CF and D. Past results may not be indicative of future performance, crowdfunding investments are subject to total loss of principal.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="investor__title">
+                            <!-- <img src="./image/Subtract.svg" alt=""> -->
+                            <h2>$7M+ paid out to investors</h2>
+                            <h4>Next Invest has already paid out over $7M in cash returns to investors. Earn potential cash payments through unique revenue-share and debt financing investments.</h4>
+                            <p>This chart displays payments resulting from offerings facilitated by NextSeed TX LLC, NextSeed US LLC, and NextSeed Securities, LLC between the third quarter of 2015 and the third quarter of 2020 utilizing Texas' intrastate crowdfunding exemption, Regulations CF and D. Past results may not be indicative of future performance, crowdfunding investments are subject to total loss of principal.</p>
+                        </div>
                     </div>
-                    <div class="investor__image">
-                        <img class="investor__chart " src="./image/Chart.png" alt="">
+                    <div class="col-md-6"> 
+                        <div class="investor__image">
+                            <img class="investor__chart " src="./image/Chart.png" alt="">
+                        </div>
                     </div>
+                </div>
+                    
+                    
             </div>
         </div>
         <div class="investor__element">
@@ -477,7 +528,6 @@
                         </div>
                         <button class="apply__content-button">Apply Online</button>    
                     </div>
-                    <div class="col"></div>
                     <div class="col-md-5">
                         <img src="./image/cuate.png" alt="">
                     </div>
@@ -492,7 +542,7 @@
         <div class="container">
             <div class="footer__content">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="footer__content-brand">
                             <a href="#" class="brand">NEXT INVEST</a>
                             <p class="copyright">Copyright © 2020. LogoIpsum. All rights reserved.</p>

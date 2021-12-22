@@ -421,9 +421,12 @@ ul{
     position:relative;
 }
 .investor .investor__content{
-    display: flex;
+    /* display: flex; */
     position:absolute;
     z-index: 1;
+}
+.investor .investor__image img{
+    width: 100%;
 }
 .investor .investor__title h2{
     width: 80%;
@@ -494,6 +497,9 @@ ul{
     border: none;
     transition: ease-out 0.3s;
 }
+.apply img{
+    width: 100%;
+}
 .footer{
     padding: 60px 0;
     background-color: #ECECEC;
@@ -542,7 +548,7 @@ ul{
     border-radius: 100%;
     padding: 13px; 
     position: fixed;
-    z-index: 10000;
+    z-index: 1;
     right: 100px;
     bottom: 30px;
 }
@@ -585,4 +591,122 @@ ul{
 .footer .footer__subscribe .form__input .send img{
     padding: 15px;
     margin: 0;
+}
+/* Mobile */
+.main__menu-btnmobile{
+    display: none;
+    width: 24px;
+    height: 24px;
+    color: #333333;
+}
+.main__menu-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    animation: fadeIn linear 0.3s;
+}
+.header .main__menu-mobile{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    height: 100%;
+    background-color: #FFF;
+    transform: translateX(100%);
+    transition: transform 0.8s;
+
+}
+.header .main__menu-mobile .menu__mobile-list{
+    margin: 24px;
+    padding: 0;
+}
+.header .main__menu-mobile .brand__mobile{
+    background-color: #128C76;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 24px 86px 24px 24px;
+}
+.header .main__menu-mobile .brand__mobile a{
+    color: #FFF;
+    text-decoration: none;
+}
+.header .main__menu-mobile .menu__mobile-list .nav__mobile-link{
+    margin: 12px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.header .main__menu-mobile .menu__mobile-list .nav__mobile-link > a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+.header .main__menu-mobile .menu__mobile-list a{
+    text-decoration: none;
+}
+.header .main__menu-mobile .button__mobile-menu{
+    margin: 18px 24px;
+}
+.header .main__menu-mobile .button__mobile-menu .btn__moile-login{
+    background: #128C76   ;
+    padding: 16px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    border: none;
+}
+.header .main__menu-mobile .button__mobile-menu .btn__mobile-register-outline{
+    background-color: #FFF;
+    border: 1px solid #F56B8D;
+    padding: 16px 40px;
+    color: #F56B8D ;
+}
+.header .main__menu-mobile .sub__mobile-menu{
+    padding: 0 12px;
+}
+.header .main__menu-mobile .sub__mobile-menu li{
+    padding: 8px 0;
+}
+.header .main__menu-mobile .sub__mobile-menu a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.button_mobile-close{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    color: #FFF;
+}
+.nav__input:checked ~ .main__menu-overlay{
+    display: block;
+}
+.nav__input:checked ~ .main__menu-mobile{
+    transform: translateX(0%);
+}
+
+@keyframes fadeIN {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
