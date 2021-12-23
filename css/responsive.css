@@ -47,6 +47,13 @@
         font-size: 36px;
         line-height: 30px;
     }
+    .offering .offering__button-view{
+        background-color: #F56B8D;
+        color: #FFF ;
+    }
+    .offering .offering__button-view:before{
+        display: none;
+    }
     .offering .offering__title .offering__title-paragraph {
         font-size: 18px;
         line-height: 26px;
@@ -122,7 +129,30 @@
         width: 300px;
     }
 }
-
+/* screen 990 */
+@media only screen and (max-width: 990px){
+    .hero {
+        height: 60vh;
+    }
+    .investor {
+        height: 50vh;
+    }
+    .offering .offering__card .offering__badge {
+        top: 12px;
+        left: 12px;
+    }
+    .offering .offering__card .offering__badge .offering__badge-item {
+        font-size: 10px;
+    }
+    .progress__p .progress__p-price {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .offering .progress__p .progress__p-raise {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
 /* screen 768 */
 @media only screen and (max-width: 768px){
     
@@ -277,6 +307,10 @@
 }
 /* 600px */
 @media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
     nav.container{
         margin: 0;
     }

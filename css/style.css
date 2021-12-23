@@ -548,7 +548,7 @@ ul{
     border-radius: 100%;
     padding: 13px; 
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     right: 100px;
     bottom: 30px;
 }
@@ -667,11 +667,15 @@ ul{
     color: #FFF;
     border: none;
 }
-.header .main__menu-mobile .button__mobile-menu .btn__mobile-register-outline{
-    background-color: #FFF;
-    border: 1px solid #F56B8D;
+.header .main__menu-mobile .button__mobile-menu .btn__mobile-register{
+    background-color: #F56B8D;
     padding: 16px 40px;
-    color: #F56B8D ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    border: none;;
 }
 .header .main__menu-mobile .sub__mobile-menu{
     padding: 0 12px;
