@@ -621,10 +621,6 @@ ul{
     transition: transform 0.8s;
 
 }
-.header .main__menu-mobile .menu__mobile-list{
-    margin: 24px;
-    padding: 0;
-}
 .header .main__menu-mobile .brand__mobile{
     background-color: #128C76;
     font-style: normal;
@@ -637,21 +633,6 @@ ul{
 }
 .header .main__menu-mobile .brand__mobile a{
     color: #FFF;
-    text-decoration: none;
-}
-.header .main__menu-mobile .menu__mobile-list .nav__mobile-link{
-    margin: 12px 0;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #e6e6e6;
-}
-
-.header .main__menu-mobile .menu__mobile-list .nav__mobile-link > a{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    color: #333333;
-}
-.header .main__menu-mobile .menu__mobile-list a{
     text-decoration: none;
 }
 .header .main__menu-mobile .button__mobile-menu{
@@ -677,19 +658,11 @@ ul{
     color: #FFF;
     border: none;;
 }
-.header .main__menu-mobile .sub__mobile-menu{
-    padding: 0 12px;
+.show1 {
+    display: none;
 }
-.header .main__menu-mobile .sub__mobile-menu li{
-    padding: 8px 0;
-}
-.header .main__menu-mobile .sub__mobile-menu a{
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
+.show2 {
+    display: none;
 }
 .button_mobile-close{
     width: 24px;
@@ -705,7 +678,49 @@ ul{
 .nav__input:checked ~ .main__menu-mobile{
     transform: translateX(0%);
 }
-
+.header .main__menu-mobile .menu__mobile-dropdown .nav__mobile-link{
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    border: none;
+    background-color: transparent;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+}
+.header .main__menu-mobile .menu__mobile-dropdown .sub__mobile-menu{
+    display: none;
+}
+.header .main__menu-mobile .menu__mobile-dropdown .sub__mobile-menu a{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0 12px 36px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+.header .main__menu-mobile .menu__mobile-dropdown .sub__mobile-menu a:last-child{
+    margin-bottom: 12px;
+}
+.header .main__menu-mobile .menu__mobile-dropdown .nav__about{
+    text-decoration: none;
+    margin: 24px;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.active{
+    background-color: #FFF;
+    color: #128C76;
+}
+}
 @keyframes fadeIN {
     from {
         opacity: 0;

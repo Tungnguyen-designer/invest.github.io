@@ -4,9 +4,11 @@
 }
 .main__menu .main__menu-link .sub__menu a:hover{
     color: #128C76;
+    
 }
 .main__menu .main__menu-link .nav__link > a:hover{
     color: #128C76;
+    cursor: pointer;
 }
 .button__menu .btn__login:hover{
     transition: 0.3s all ease;
@@ -76,4 +78,14 @@
 }
 .main__menu-btnmobile:hover{
     cursor: pointer;
+}
+.header .main__menu-mobile .menu__mobile-dropdown .sub__mobile-menu a:hover{
+    background-color: #128C76;
+    color: #FFF;
+}
+.header .main__menu-mobile .menu__mobile-dropdown .nav__mobile-link:hover{
+    color: #128C76;
+}
+.header .main__menu-mobile .menu__mobile-dropdown .nav__about:hover{
+    color: #128C76;
 }

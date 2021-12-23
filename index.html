@@ -52,26 +52,24 @@
                 <div class="brand__mobile">
                     <a href="#">NEXT INVEST</a>
                 </div>
-                
-                <ul class="menu__mobile-list">
-                    <li class="nav__mobile-link"><a>Investment Opportunities</a>
-                        <ul class="sub__mobile-menu">
-                            <li><a href="#">Menu 2.1</a></li>
-                            <li><a href="#">Menu 2.2</a></li>
-                            <li><a href="#">Menu 2.3</a></li>
-                            <li><a href="#">Menu 2.4</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav__mobile-link"><a>How it works</a>
-                        <ul class="sub__mobile-menu">
-                            <li><a href="#">Menu 2.1</a></li>
-                            <li><a href="#">Menu 2.2</a></li>
-                            <li><a href="#">Menu 2.3</a></li>
-                            <li><a href="#">Menu 2.4</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav__mobile-link"><a href="#">About us</a></li>
-                </ul>
+                <div class="menu__mobile-dropdown">
+                    <button class="nav__mobile-link">Investment Opportunities</button>
+                    <div class="sub__mobile-menu">
+                        <a href="#">Menu 2.1</a>
+                        <a href="#">Menu 2.1</a>
+                        <a href="#">Menu 2.1</a>
+                        <a href="#">Menu 2.1</a>
+                    </div>
+                    <button class="nav__mobile-link">How it works</button>
+                    <div class="sub__mobile-menu">
+                        <a href="#">Menu 2.1</a>
+                        <a href="#">Menu 2.1</a>
+                        <a href="#">Menu 2.1</a>
+                        <a href="#">Menu 2.1</a>
+                    </div>
+                    <a class="nav__about" href="#">About us</a>
+                    
+                </div>    
                 <div class="button__mobile-menu">
                     <button class="btn__moile-login">Login</button>
                     <button class="btn__mobile-register">Register</button>
@@ -624,5 +622,20 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+    var dropdown = document.getElementsByClassName("nav__mobile-link");
+    var i;
+        for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+    } else {
+    dropdownContent.style.display = "block";
+    }
+    });
+    }
     </script>
+
+
 </html>

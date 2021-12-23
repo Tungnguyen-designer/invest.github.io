@@ -8,10 +8,6 @@
     .main__menu{
         display: none;
     }
-    
-    .header .main__menu-mobile .nav__mobile-link .sub__mobile-menu{
-        display: none;
-    }
     /* End mobile */
     .hero{
         height: 50vh;
