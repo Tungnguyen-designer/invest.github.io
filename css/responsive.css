@@ -43,13 +43,7 @@
         font-size: 36px;
         line-height: 30px;
     }
-    .offering .offering__button-view{
-        background-color: #F56B8D;
-        color: #FFF ;
-    }
-    .offering .offering__button-view:before{
-        display: none;
-    }
+
     .offering .offering__title .offering__title-paragraph {
         font-size: 18px;
         line-height: 26px;
@@ -118,9 +112,6 @@
     .apply .apply__element {
         z-index: -1;
     }
-    
-    
-
     .footer .footer__subscribe .form__input .form{
         width: 300px;
     }
@@ -220,9 +211,9 @@
     .offering .card__overlay .card__overlay-button button {
         padding: 10px 40px;
     }
-    .offering .offering__element{
+    /* .offering .offering__element{
         display: none;
-    }
+    } */
     .offering .offering__card .offering__badge .offering__badge-item {
         font-size: 9px;
     }
@@ -253,9 +244,6 @@
     .progress__p .progress__p-raise {
         font-size: 13px;
     }
-    .offering .offering__card .card__overlay{
-        display: none;
-    }
     .offering .offering__title .offering__title-large {
         font-size: 25px;
         line-height: 26px;
@@ -268,13 +256,6 @@
     }
     .offering .offering__button-view {
         padding: 16px 40px;
-    }
-    .offering .offering__button-view:before{
-        display: none;
-    }
-    .offering .offering__button-view:hover{
-        color: #F56B8D;
-        cursor: pointer;
     }
     .investor {
         height: 40vh;
