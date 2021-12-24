@@ -288,3 +288,12 @@
         margin: 29px 0;
     }
 }
+@media only screen and (max-width: 378px){
+    .offering .card__overlay .card__details {
+        margin: 10px 0;
+    }
+    .offering .card__overlay .card__details .card__details-info .card__details-content {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+}
