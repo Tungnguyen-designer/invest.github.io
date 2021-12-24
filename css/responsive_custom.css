@@ -222,6 +222,12 @@
     .offering .card__overlay .card__details{
         margin: 24px 0;
     }
+    .investor {
+        height: 75vh;
+    }
+    .footer .footer__subscribe .form__input .form {
+        width: 245px;
+    }
 }
 @media only screen and (max-width: 738px){
     body{
@@ -275,5 +281,10 @@
     }
     .footer .footer__subscribe .footer__subscribe-social{
         margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 426px){
+    .offering .card__overlay .card__details {
+        margin: 29px 0;
     }
 }
