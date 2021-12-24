@@ -235,7 +235,7 @@
         overflow-x: hidden;
     }
     .hero {
-        height: 80vh;
+        height: 55vh;
     }
     .hero .hero__text p{
         max-width: 100%;
