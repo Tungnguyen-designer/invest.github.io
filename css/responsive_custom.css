@@ -1,0 +1,219 @@
+@media only screen and (max-width: 1400px){
+    .offering .card__overlay{
+        max-height: 100%;
+        overflow: hidden;
+    }
+    .offering .card__overlay .card__overlay-button button{
+        padding: 15px 40px;
+    }
+    .offering .card__overlay .card__details{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    /* Mobile */
+    .main__menu-btnmobile{
+        display: block;
+    }
+    .main__menu{
+        display: none;
+    }
+    /* End mobile */
+    .hero{
+        height: 50vh;
+    }
+    .hero .hero__text h1 {
+        font-size: 40px;
+        line-height: 52px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+    .hero .hero__text p {
+        font-size: 20px;
+        line-height: 27px;
+        margin: 24px 0px;   
+    }
+    .circle {
+        top: 120px;
+        left: 10px;
+        height: 300px;
+        width: 300px;
+    }
+    .hero .hero__button .hero__button-get {
+        margin: 20px 0;
+        padding: 18px 50px;
+    }
+    .hero .hero__content {
+        margin: 125px 0;
+    }
+    .offering {
+        margin: 64px 0;
+    }
+    .offering .offering__title .offering__title-large {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .offering .offering__title .offering__title-paragraph {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 16px 0px 60px;
+    }
+    .offering .card__details-info .card__details-title{
+        font-size: 14px;
+    }
+    .offering .card__details-info .card__details-content{
+        font-size: 14px;
+    }
+    .offering .card__overlay .card__details-info{
+        margin: 0;
+    }
+    .offering .card__overlay .card__details{
+        margin: 28px 0;
+    }
+    .offering .card__overlay .card__overlay-button button{
+        padding: 16px 40px;
+    }
+    .offering .card__overlay .card-body__p{
+        margin: 8px 0;
+    }
+    .offering .offering__button-view {
+        margin: 18px 0 0 0;
+    }
+    .investor{
+        height: 43vh;
+        padding: 80px 0;
+    }
+    .investor .investor__title h2 {
+        font-size: 36px;
+        line-height: 43px;
+        margin: 10px 0px;
+    }
+    .investor .investor__title h4{
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+    .investor .investor__title p{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .investor .investor__element .investor__element-item1{
+        width: 50%;
+    }
+    .apply {
+        padding: 80px 0;
+    }
+    .apply .apply__content .apply__content-title h2{
+        font-size: 36px;
+        line-height: 43px;
+        margin: 10px 0px;
+    }
+    .apply .apply__content .apply__content-title h4{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 10px 0;
+    }
+    .apply .apply__content .apply__content-button{
+        margin: 20px 0;
+        padding: 18px 50px;
+    }
+    .apply .apply__element {
+        z-index: -1;
+    }
+    .footer .footer__subscribe .form__input .form{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .offering .card__overlay .offering__card-body {
+        margin: 8px;
+    }
+    .offering .card__overlay .card__details{
+        margin: 0;
+    }
+    .offering .offering__card-body {
+        margin: 16px;
+    }
+    .offering .offering__card .offering__badge {
+        top: 16px;
+        left: 16px;
+    }
+    .progress__p .progress__p-price {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .progress__p .progress__p-raise {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .offering .card__overlay .offering__card-body .card-body__p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .offering .card__overlay .offering__card-body hr{
+        margin: 5px 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .offering .card__overlay .offering__card-body {
+        margin: 24px;
+    }
+    .offering .card__overlay .card__details-info{
+        flex-direction: column;
+    }
+    .offering .card__details-info .card__details-title {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    .offering .card__details-info .card__details-content {
+        font-size: 18px;
+    }
+    .progress__p .progress__p-price {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .progress__p .progress__p-raise {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .offering .card__overlay .card__details {
+        margin: 21px 0;
+    }
+    .investor {
+        height: 80vh;
+    }
+}
+@media only screen and (max-width: 737px){
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .hero {
+        height: 80vh;
+    }
+    .hero .hero__text p{
+        max-width: 100%;
+    }
+    .offering .card__overlay .card__details-info{
+        flex-direction: row;
+    }
+    .offering .card__details-info .card__details-title {
+        font-size: 16px;
+    }
+    .offering .card__details-info .card__details-content {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+}
+@media only screen and (max-width: 576px){
+    .offering .card__overlay .card__overlay-button button {
+        padding: 22px 40px;
+    }
+    .footer .footer__subscribe .form__input .form {
+        width: 241px;
+    }
+    .footer .footer__subscribe img {
+        margin: 0 11px;
+    }
+}
