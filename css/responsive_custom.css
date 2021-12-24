@@ -155,36 +155,75 @@
         margin: 5px 0;
     }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 769px){
     .offering .card__overlay .offering__card-body {
         margin: 24px;
     }
-    .offering .card__overlay .card__details-info{
-        flex-direction: column;
-    }
-    .offering .card__details-info .card__details-title {
-        font-size: 18px;
-        margin: 8px 0;
+    .offering .card__overlay .card__details .card__details-info .card__details-title {
+        font-size: 12px;
     }
     .offering .card__details-info .card__details-content {
-        font-size: 18px;
+        font-size: 12px;
+    }
+    .offering .offering__card .card__overlay hr{
+        margin: 6px 0;
     }
     .progress__p .progress__p-price {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 16px;
     }
     .progress__p .progress__p-raise {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 13px;
+        line-height: 16px;
     }
     .offering .card__overlay .card__details {
         margin: 21px 0;
     }
+    .offering .card__overlay .offering__card-body {
+        margin: 16px;
+    }
+    .offering .card__overlay .offering__card-body .card-body__p{
+        font-size: 14px ;
+        line-height: 16px;
+    }
+    .offering .card__overlay .offering__card-body .card-body__title-large {
+        font-size: 18px;
+    }
+    .offering .card__overlay .card__details{
+        margin: 0;
+    }
     .investor {
-        height: 80vh;
+        height: 50vh;
     }
 }
-@media only screen and (max-width: 737px){
+@media only screen and (max-width: 768px){
+    .offering .card__overlay .card__details .card__details-info{
+        flex-direction: column  ;
+    }
+    .offering .card__overlay .card__details .card__details-info .card__details-title{
+        font-size: 16px;
+        margin: 8px 0;
+    }
+    .offering .card__overlay .card__details .card__details-info .card__details-content{
+        font-size: 16px;
+    }
+    .offering .card__overlay .offering__card-body .card-body__p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .progress__p .progress__p-price{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .progress__p .progress__p-raise{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .offering .card__overlay .card__details{
+        margin: 24px 0;
+    }
+}
+@media only screen and (max-width: 738px){
     body{
         max-width: 100%;
         overflow-x: hidden;
@@ -195,25 +234,46 @@
     .hero .hero__text p{
         max-width: 100%;
     }
-    .offering .card__overlay .card__details-info{
-        flex-direction: row;
-    }
-    .offering .card__details-info .card__details-title {
-        font-size: 16px;
-    }
-    .offering .card__details-info .card__details-content {
-        font-size: 16px;
-        margin: 8px 0;
-    }
+    
 }
-@media only screen and (max-width: 576px){
-    .offering .card__overlay .card__overlay-button button {
-        padding: 22px 40px;
+@media only screen and (max-width: 577px){
+    .offering .card__overlay .card__details {
+        margin: 24px 0;
     }
     .footer .footer__subscribe .form__input .form {
         width: 241px;
     }
     .footer .footer__subscribe img {
         margin: 0 11px;
+    }
+}
+@media only screen and (max-width: 574px){
+    .offering .card__overlay .card__details {
+        margin: 29px 0;
+}
+@media only screen and (max-width: 557px){
+    .offering .card__overlay .card__details {
+        margin: 24px 0;
+}
+@media only screen and (max-width: 539px){
+    .offering .card__overlay .card__details {
+        margin: 18px 0;
+}
+@media only screen and (max-width: 454px){
+    .offering .card__overlay .card__details .card__details-info{
+        flex-direction: row  ;
+    }
+    .offering .card__overlay .card__details {
+        margin: 39px 0;
+    }
+    .investor {
+        height: 80vh;
+    }
+    .footer .footer__subscribe{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer .footer__subscribe .footer__subscribe-social{
+        margin-top: 10px;
     }
 }
